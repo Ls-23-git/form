@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./andrej-lisakov-3A4XZUopCJA-unsplash.jpg);
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    /* background-color: rgb(223, 210, 193); */
+    box-shadow: 5px 10px 5px rgba(0,0,0,1.5);
+    height: 60vh;
+    width: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.container h1{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 1rem;
+    margin: 0 1rem;
+}
+.form1 input{
+    height: 2rem;
+    font-size: 1rem;
+    width: 100%;
+    padding: 0 8px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 0.5rem;
+}
+.form2{
+    display: flex;
+    gap: 5px;
+}
+form button{
+    width: 100%;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: burlywood;
+    color: black;
+}
+form button:hover{
+    background-color: rgb(136, 105, 64);
+    color: white;
+}
